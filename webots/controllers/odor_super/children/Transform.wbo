@@ -1,0 +1,13 @@
+#VRML_OBJ R2021b utf8
+Transform {
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0 0.4
+      }
+      geometry Sphere {
+        radius 0.03
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+#VRML_OBJ V8.0.1 utf8
+DEF goal Transform {
+  translation 17.3525 0.363087 0
+  rotation 1 0 0 1.5708
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 1 0 0
+          emissiveColor 1 0 0
+        }
+      }
+      geometry Cylinder {
+        height 0.001
+        radius 0.05
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+#VRML_OBJ R2021b utf8
+DEF Supervisor Robot {
+  children [
+    Receiver {
+      name "receiver_wind"
+      boundingObject DEF CYLINDER_WIND Cylinder {
+        height 0.02
+        radius 0.02
+      }
+      physics Physics {
+      }
+      channel 100
+    }
+    Receiver {
+      name "receiver_odor"
+      boundingObject DEF CYLINDER_ODOR Cylinder {
+        height 0.02
+        radius 0.01
+      }
+      physics Physics {
+      }
+    }
+    Receiver {
+      name "receiver_radio"
+      channel 8
+    }
+    Emitter {
+      name "emitter_sup"
+      channel 8
+    }
+  ]
+  name "Supervisor"
+  controller "supervisor_target"
+  supervisor TRUE
+}

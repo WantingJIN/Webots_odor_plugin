@@ -1,0 +1,30 @@
+#VRML_OBJ R2021b utf8
+Transform {
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.12549019607843137 0.2901960784313726 0.5294117647058824
+          emissiveColor 0.12549019607843137 0.2901960784313726 0.5294117647058824
+        }
+      }
+      geometry IndexedLineSet {
+        coord Coordinate {
+          point [
+            0.05 0 0
+            0.025 -0.0433013 0
+            -0.025 -0.0433013 0
+            -0.05 0 0
+            -0.025 0.0433013 0
+            0.025 0.0433013 0
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, 4, 5, 0
+        ]
+      }
+      castShadows FALSE
+      isPickable FALSE
+    }
+  ]
+}
